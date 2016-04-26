@@ -14,7 +14,7 @@ var Home = React.createClass({
                     <button className="btn btn-success">Get Started</button>
                 </Link>
             </div>
-        );
+        )
     }
 });
 

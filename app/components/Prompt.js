@@ -28,7 +28,7 @@ var Prompt = function(props) {
                 </form>
             </div>
         </div>
-    );
+    )
 };
 
 Prompt.propTypes = {
