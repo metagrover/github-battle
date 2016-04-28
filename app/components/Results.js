@@ -7,6 +7,7 @@ var PropTypes = React.PropTypes;
 var MainContainer = require('../containers/MainContainer');
 var UserDetails = require('./UserDetails');
 var UserDetailsWrapper = require('./UserDetailsWrapper');
+var Loading = require('./Loading');
 
 function StartOver() {
     return (
@@ -23,7 +24,7 @@ function StartOver() {
 function Results(props) {
     if (props.isLoading === true) {
         return (
-            <p>Loading</p>
+            <Loading text='Battle in progress' />
         )
     }
 
